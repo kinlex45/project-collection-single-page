@@ -1,0 +1,652 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header .row .con {
+  display: flex;
+  height: 127px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 680px;
+}
+header .row .con .logo_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 887px;
+  height: 63px;
+}
+header .row .con .logo_holder .logo img {
+  padding-bottom: 20px;
+}
+header .row .con .logo_holder .menu {
+  width: 685px;
+}
+header .row .con .logo_holder .menu nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+header .row .con .logo_holder .menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-weight: 600px;
+}
+header .row .con .btn_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 63px;
+  gap: 20px;
+  padding-right: 50px;
+}
+header .row .con .btn_holder a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+}
+header .row .con .btn_holder button {
+  width: 203px;
+  height: 63px;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+}
+header .row .con .btn_holder button:hover {
+  transform: scale(1.1);
+  background-color: silver;
+}
+header .row .con .btn_holder button a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.hero_section .row .con {
+  height: 938px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 107px;
+  background-repeat: no-repeat;
+  padding-top: 106px;
+}
+.hero_section .row .con .holder1 {
+  width: 766px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 702px;
+  padding-left: 100px;
+}
+.hero_section .row .con .holder1 h1 {
+  font-size: 95px;
+  font-weight: bolder;
+}
+.hero_section .row .con .holder1 p {
+  font-size: 31px;
+}
+.hero_section .row .con .holder1 button {
+  width: 350px;
+  height: 85px;
+  background-color: #ea580c;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.6s ease-in-out;
+}
+.hero_section .row .con .holder1 button:hover {
+  transform: scale(1.1);
+  background-color: silver;
+}
+.hero_section .row .con .holder1 button a {
+  text-decoration: none;
+  color: white;
+  font-size: 31px;
+  font-weight: bold;
+}
+.hero_section .row .con .holder1 .logo {
+  width: 766px;
+  height: 60px;
+  gap: 70px;
+  display: flex;
+}
+.hero_section .row .con .holder1 .logo p {
+  font-size: 21px;
+}
+.hero_section .row .con .holder1 .logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 38px;
+  height: 42px;
+}
+.hero_section .row .con .holder2 {
+  width: 832px;
+  height: 725px;
+  padding-left: 150px;
+}
+
+.tool_section {
+  background-image: url(../img/back\ img\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tool_section .row .con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 106px;
+}
+.tool_section .row .con .topic_holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.tool_section .row .con .topic_holder h1 {
+  font-size: 74.63px;
+  font-weight: bolder;
+}
+.tool_section .row .con .topic_holder p {
+  font-size: 26px;
+  width: 1600px;
+  text-align: center;
+  padding-top: 80px;
+}
+.tool_section .row .con .img_holder {
+  margin-bottom: 25px;
+}
+.tool_section .row .con .img_holder .img2 {
+  height: 1030px;
+}
+.tool_section .row .con .img_holder1 .img1 {
+  width: 1545.86px;
+  height: 85.29px;
+  margin-bottom: 130px;
+}
+
+.app_section {
+  height: 939px;
+  background-image: url(../img/Section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.app_section .row .con {
+  display: flex;
+  justify-content: center;
+  padding-top: 230px;
+  gap: 106px;
+}
+.app_section .row .con .text_holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -moz-column-gap: 106px;
+       column-gap: 106px;
+  gap: 42px;
+  width: 724px;
+  height: 467px;
+}
+.app_section .row .con .text_holder h1 {
+  font-size: 74px;
+  font-weight: bolder;
+  padding-left: 50px;
+}
+.app_section .row .con .text_holder ul {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.app_section .row .con .text_holder ul li {
+  font-size: 26px;
+  list-style: none;
+  padding-top: 25px;
+  text-align: left;
+}
+.app_section .row .con .text_holder ul li img {
+  padding-right: 20px;
+}
+.app_section .row .con .text_holder a {
+  text-decoration: none;
+  font-size: 26px;
+  padding-left: 50px;
+}
+.app_section .row .con .holder_sec2 img {
+  width: 799px;
+  height: 521px;
+}
+.app_section .row .con .holder_sec2 .card_holder {
+  display: flex;
+  width: 843px;
+  gap: 20px;
+  height: 306px;
+  justify-content: center;
+  align-items: center;
+  z-index: 9.999;
+  position: relative;
+  right: 110px;
+  bottom: 170px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card {
+  text-align: left;
+  width: 266px;
+  height: 306px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 1px 0px #f0f0f0;
+  border-radius: 10px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card h3 {
+  font-size: 26px;
+  font-weight: bold;
+  width: 224px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card p {
+  font-size: 18px;
+  width: 224px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card .green {
+  background-color: #f3e8ff;
+  color: purple;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 120px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card .blue {
+  background-color: #dbeafe;
+  color: blue;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 130px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card .purple {
+  background-color: #dcfce7;
+  color: green;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 160px;
+}
+.app_section .row .con .holder_sec2 .card_holder .card button {
+  width: 224px;
+  height: 53px;
+  border: 3px solid blue;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+}
+.app_section .row .con .holder_sec2 .card_holder .card button:hover {
+  transform: scale(1.1);
+  background-color: silver;
+}
+.app_section .row .con .holder_sec2 .card_holder .card button a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.student_section {
+  height: 1080px;
+}
+.student_section .row .con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+.student_section .row .con .topic_holder {
+  width: 799px;
+}
+.student_section .row .con .topic_holder .bye {
+  width: 50px;
+  margin-left: 535px;
+}
+.student_section .row .con .topic_holder h1 {
+  font-size: 76px;
+  font-weight: bolder;
+}
+.student_section .row .con .topic_holder p {
+  font-size: 26px;
+  padding-top: 50px;
+}
+.student_section .row .con .topic_holder a {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+.student_section .row .con .topic_holder .hello {
+  width: 30px;
+  padding-left: 10px;
+}
+
+.review_section {
+  height: 498px;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.review_section .row .con {
+  width: 1705px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 284px;
+}
+.review_section .row .con .holder_1 {
+  width: 497px;
+  height: 284px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.review_section .row .con .holder_1 h1 {
+  font-size: 95px;
+  color: yellow;
+}
+.review_section .row .con .holder_1 h3 {
+  font-size: 31px;
+  color: #facc15;
+}
+
+.testionmal_section {
+  height: 810px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testionmal_section .row .con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 107px;
+}
+.testionmal_section .row .con .topic_holder {
+  display: flex;
+  justify-content: space-between;
+  width: 1482px;
+  height: 82px;
+  margin-top: 107px;
+}
+.testionmal_section .row .con .topic_holder h1 {
+  font-size: 74px;
+  font-weight: bolder;
+}
+.testionmal_section .row .con .topic_holder img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.testionmal_section .row .con .card_holder {
+  display: flex;
+  justify-content: space-between;
+  width: 1705px;
+  height: 417px;
+}
+.testionmal_section .row .con .card_holder .card {
+  width: 549px;
+  height: 403px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 5px #f0f0f0;
+  border-radius: 10px;
+  border: none;
+}
+.testionmal_section .row .con .card_holder .card img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.testionmal_section .row .con .card_holder .card .pin {
+  font-size: 24px;
+  text-align: center;
+  width: 463px;
+  padding-top: 30px;
+  height: 190px;
+}
+.testionmal_section .row .con .card_holder .card .ava {
+  display: flex;
+  align-items: center;
+  width: 463px;
+  height: 106px;
+}
+.testionmal_section .row .con .card_holder .card .ava .textholder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.testionmal_section .row .con .card_holder .card .ava .textholder h5 {
+  font-size: 23px;
+}
+.testionmal_section .row .con .card_holder .card .ava .textholder .para {
+  font-size: 21px;
+}
+
+.feature_section {
+  height: 900px;
+  background-image: url(../img/Section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+}
+.feature_section .row .con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+  gap: 200px;
+}
+.feature_section .row .con .topic_holder {
+  width: 799px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 300px;
+}
+.feature_section .row .con .topic_holder h1 {
+  font-size: 74px;
+  font-weight: bolder;
+}
+.feature_section .row .con .topic_holder p {
+  font-size: 26px;
+}
+.feature_section .row .con .topic_holder a {
+  text-decoration: none;
+  font-size: 26px;
+}
+.feature_section .row .con .holder1 .card {
+  text-align: left;
+  width: 266px;
+  height: 306px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 1px 0px #f0f0f0;
+  border-radius: 10px;
+}
+.feature_section .row .con .holder1 .card h3 {
+  font-size: 26px;
+  font-weight: bold;
+  width: 224px;
+}
+.feature_section .row .con .holder1 .card p {
+  font-size: 18px;
+  width: 224px;
+}
+.feature_section .row .con .holder1 .card .blue {
+  background-color: #dbeafe;
+  color: blue;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 130px;
+}
+.feature_section .row .con .holder1 .card button {
+  width: 224px;
+  height: 53px;
+  border: 3px solid blue;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.feature_section .row .con .holder1 .card button a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.feature_section .row .con .holder1 .card button:hover {
+  background-color: silver;
+}
+.feature_section .row .con .holder1 img {
+  z-index: 9.99;
+  position: relative;
+  bottom: 270px;
+  right: 50px;
+  width: 800px;
+}
+
+.sign_section {
+  height: 1037px;
+  background-image: url(../img/Section\ last.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sign_section .row .con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+.sign_section .row .con .topic_holder {
+  width: 1705px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.sign_section .row .con .topic_holder h1 {
+  font-size: 74px;
+  font-weight: bolder;
+}
+.sign_section .row .con .topic_holder p {
+  font-size: 26px;
+  text-align: center;
+  width: 1705px;
+  height: 103px;
+}
+.sign_section .row .con .topic_holder button {
+  width: 318px;
+  height: 85px;
+  background-color: #ea580c;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.6s ease-in-out;
+}
+.sign_section .row .con .topic_holder button:hover {
+  transform: scale(1.1);
+  background-color: silver;
+}
+.sign_section .row .con .topic_holder button a {
+  text-decoration: none;
+  color: white;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0f172a;
+}
+footer .row .con .foot_holder {
+  display: flex;
+  width: 1700px;
+  height: 553px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+footer .row .con .foot_holder .logo img {
+  padding-bottom: 230px;
+}
+footer .row .con .foot_holder .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .row .con .foot_holder .menu h4 {
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+}
+footer .row .con .foot_holder .menu h4 a {
+  text-decoration: none;
+  color: white;
+}
+footer .row .con .foot_holder .menu h5 {
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+}
+footer .row .con .foot_holder .menu h5 a {
+  text-decoration: none;
+  color: white;
+}
+footer .row .con .foot_holder .menu h5 .imgg1 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 50px;
+}
+footer .row .con .foot_holder .menu h5 p {
+  color: purple;
+  background-color: white;
+}
+footer .row .con .under_footer {
+  display: flex;
+  justify-content: space-around;
+  width: 1700px;
+  gap: 890px;
+  height: 95px;
+}
+footer .row .con .under_footer .holder-footercon {
+  display: flex;
+}
+footer .row .con .under_footer .holder-footercon p {
+  color: white;
+  padding-top: 40px;
+}
+footer .row .con .under_footer .holder-footercon img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100px;
+  padding-bottom: 23px;
+}
+footer .row .con .under_footer .socail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,891 @@
+@use 'vars';
+
+
+body{
+    font-family: "Roboto", sans-serif;
+ 
+}
+
+// satrt of header section
+header{
+   
+
+    .row .con{
+      display: flex;
+        height: 127px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 680px;
+   
+    .logo_holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 887px;
+        height: 63px;
+
+        .logo{
+            img{
+                padding-bottom: 20px;
+            }
+        }
+        .menu{
+            width:685px ;
+
+            nav ul{
+            display: flex;
+            justify-content:space-around;
+            list-style-type: none;
+
+            li a{
+                text-decoration: none;
+                color: black;
+                font-size: 21px;
+                font-weight: 600px;
+            }
+        }
+        }
+
+      
+    }
+
+    .btn_holder{
+            
+           display: flex;
+           align-items: center;
+           justify-content: center; 
+           height: 63px;
+           gap: 20px;
+           padding-right: 50px;
+           a{
+            text-decoration: none;
+                color: black;
+                font-size: 21px;
+                font-weight: 600;
+
+           }
+
+           button{
+                width: 203px;
+                height: 63px;
+                border-radius: 5px;
+                transition: all 0.6s ease-in-out;
+                &:hover{
+
+                    transform: scale(1.1);
+                    background-color: silver;
+                }
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 21px;
+                font-weight: 600;
+            }
+           }
+    }
+}
+}
+
+// end of header section
+
+
+
+// start of hero section
+
+
+.hero_section{
+
+    .row .con{
+        height: 938px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:107px;
+        // background-image: url(/img/Section.png);
+        background-repeat: no-repeat;
+        padding-top: 106px;
+
+        .holder1{
+            width: 766px;
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+            height: 702px;
+            padding-left: 100px;
+            h1{
+            font-size: 95px;
+            font-weight: bolder;
+
+            }
+            p{
+                font-size: 31px;
+
+            }
+            button{
+                width: 350px;
+                height: 85px;
+                background-color: #ea580c;
+                border-radius: 10px;
+                border: none;
+                transition: all 0.6s ease-in-out;
+                &:hover{
+
+                    transform: scale(1.1);
+                    background-color: silver;
+                }
+                a{
+                   text-decoration: none;
+                   color: white;
+                   font-size: 31px;
+                   font-weight: bold;
+                  
+                   
+                }
+            }
+
+            .logo{
+
+                width: 766px;
+                height: 60px;
+                 gap: 70px;
+                display: flex;
+
+                p{
+                font-size: 21px;
+                }
+
+                img{
+                    object-fit: contain;
+                    width: 38px;
+                    height: 42px;
+                }
+            }
+            
+        }
+
+        .holder2{
+            width: 832px;
+            height: 725px;
+            padding-left: 150px;
+        }
+    }
+}
+// end of hero section
+
+// start of tool section
+
+.tool_section{
+    background-image: url(../img/back\ img\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+    .row .con{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+        padding-top: 106px;
+
+
+        .topic_holder{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 100px;
+            h1{
+                font-size: 74.63px;
+                font-weight: bolder;
+
+            }
+
+            p{
+                font-size:26px ;
+                width: 1600px;
+                text-align: center ;
+                padding-top:80px;
+        
+            }
+        }
+
+        .img_holder{
+            margin-bottom: 25px;
+            .img2{
+                //   width: 1510px;
+                 
+                  height: 1030px;
+            }
+        }
+
+        .img_holder1{
+
+            .img1{
+                width:1545.86px ;
+                height: 85.29px;
+                
+                margin-bottom: 130px;
+             
+
+            }
+        }
+    }
+}
+
+// end of the tool section
+
+// start od app section
+.app_section{
+height: 939px;
+background-image: url(../img/Section.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+    .row .con{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        padding-top:230px;
+           gap: 106px;
+
+        .text_holder{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+             column-gap: 106px;
+            // align-items: center;
+            // text-align: start;
+            gap: 42px;
+            width: 724px;
+            height: 467px;
+            h1{
+                font-size: 74px;
+                font-weight: bolder;
+                padding-left: 50px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                padding-right: 50px;
+
+                
+                li{
+                 font-size: 26px;
+                 list-style:none ;
+                 padding-top: 25px;
+                 text-align: left;
+                //  padding-right: 50px;
+                 img{
+
+                    padding-right: 20px;
+                 }
+               
+                    
+            }
+        }
+        a{
+
+            text-decoration: none;
+            font-size: 26px;
+            padding-left: 50px;
+           
+        }
+        }
+
+        .holder_sec2{
+            img{
+                width: 799px;
+                height:521px;
+            }
+              
+
+            .card_holder{
+                display: flex;
+                width: 843px;
+                gap: 20px;
+                height: 306px;
+                justify-content: center;
+                align-items: center;
+                z-index: 9.999;
+                position: relative;
+                right: 110px;
+                bottom: 170px;
+
+                .card{
+
+                    text-align: left;
+                    width: 266px;
+                    height: 306px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    
+                    background-color: #ffffff;
+                    box-shadow:  0px 0px 1px 0px #f0f0f0;
+                    border-radius: 10px;
+
+
+
+                    h3{ 
+                      font-size:26px ;
+                      font-weight: bold;
+                      width: 224px;
+
+                    }
+
+                    p{
+                      font-size: 18px;
+                      width: 224px;
+                    }
+
+                    .green{
+                        background-color:#f3e8ff ;
+                        color: purple;
+                        width:100px ;
+                        text-align: center;
+                        border-radius: 5px;
+                        margin-right: 120px;
+                    }
+
+                    .blue{
+                        background-color: #dbeafe;
+                        color:  blue;
+                        width:90px ;
+                        text-align: center;
+                        border-radius: 5px;
+                        margin-right: 130px;
+
+                    }
+
+                    .purple{
+                        background-color: #dcfce7;
+                        color:  green;
+                        width:60px ;
+                        text-align: center;
+                        border-radius: 5px;
+                        margin-right: 160px;
+
+
+                    }
+
+                    button{
+                          width: 224px;
+                          height: 53px;
+                          border: 3px solid blue;
+                          border-radius: 5px;
+                          transition: all 0.6s ease-in-out;
+                          &:hover{
+          
+                              transform: scale(1.1);
+                              background-color: silver;
+                          }
+
+                        a{
+                           text-decoration: none;
+
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// end of app section
+
+// start of student section
+.student_section{
+    height: 1080px;
+    .row .con{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 100px;
+
+
+        .topic_holder{
+            // display: flex;
+            // flex-direction: column;
+            
+            width: 799px;
+            
+
+            .bye{
+                width: 50px;
+                margin-left: 535px;
+                
+                
+            }
+
+            h1{
+               font-size: 76px;
+               font-weight: bolder;
+            }
+            p{
+                font-size:26px ;
+                padding-top: 50px;
+            }
+
+            a{
+               text-decoration: none;
+               font-size: 26px;
+               font-weight: bold;
+               padding-top: 150px;
+                           
+            }
+
+            .hello{
+                width: 30px;
+                padding-left: 10px;
+            }
+
+
+           
+
+
+            
+        }
+    }
+}
+
+
+// end of student section
+
+
+// start of review section
+
+.review_section{
+height: 498px;
+background-color: #0f172a;
+display: flex;
+justify-content:space-around;
+align-items: center;
+
+    .row .con{
+        width:1705px ;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
+        height: 284px;
+
+        .holder_1{
+           width: 497px;
+           height: 284px;
+           display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+
+            h1{
+               font-size: 95px;
+               color:yellow ;
+            }
+
+            h3{
+              font-size: 31px;
+              color:#facc15 ;
+            }
+        }
+    }
+}
+
+
+
+// end of review section
+
+// start of testinomal section
+
+.testionmal_section{
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    // flex-direction: row;
+
+    .row .con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:107px ;
+       
+  
+
+        .topic_holder{
+            display: flex;
+            justify-content: space-between;
+            width: 1482px;
+           height: 82px;
+           margin-top: 107px;
+           h1{
+            font-size: 74px;
+            font-weight: bolder;
+           }
+           img{
+            
+            object-fit: contain;
+           }
+
+        }
+
+        .card_holder{
+
+            display: flex;
+            justify-content: space-between;
+            width: 1705px;
+            height: 417px;
+
+
+
+
+            .card{
+                width: 549px;
+                height: 403px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 50px;
+                background-color: #ffffff;
+                box-shadow:  5px 5px 5px 5px #f0f0f0;
+                border-radius: 10px;
+                border: none;
+                img{
+                    object-fit: contain;
+                }
+
+                .pin{
+                font-size: 24px;
+                text-align: center;
+                width: 463px;
+                padding-top: 30px;
+                height: 190px;
+                }
+
+
+                .ava{
+                    display: flex;
+                   
+                    align-items: center;
+                    width: 463px;
+                    height: 106px;
+                    
+
+                    .textholder{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 10px;
+                        margin-top: 20px;
+                    h5{
+                       font-size:23px ;
+                    }
+
+                    .para{
+                        font-size: 21px;
+                    }
+                }
+
+                }
+            }
+        }
+    }
+}
+
+
+// end of testonimal section
+// start of feature section
+
+.feature_section{
+height: 900px;
+background-image: url(../img/Section.png);
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: contain;
+background-position: center;
+
+
+    .row .con{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 110px;
+       gap: 200px;
+        .topic_holder{
+        width:799px;
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        padding-bottom: 300px;
+
+            h1{
+                 font-size: 74px;
+                 font-weight: bolder;
+            }
+
+            p{
+             font-size: 26px;
+            }
+           a{
+            text-decoration: none;
+            font-size: 26px;
+     
+               }
+        }
+
+        .holder1{
+            .card{
+                text-align: left;
+                width: 266px;
+                height: 306px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                background-color: #ffffff;
+                box-shadow:  0px 0px 1px 0px #f0f0f0;
+                border-radius: 10px;
+
+
+
+                h3{ 
+                  font-size:26px ;
+                  font-weight: bold;
+                  width: 224px;
+
+                }
+
+                p{
+                  font-size: 18px;
+                  width: 224px;
+                }
+                .blue{
+                    background-color: #dbeafe;
+                    color:  blue;
+                    width:90px ;
+                    text-align: center;
+                    border-radius: 5px;
+                    margin-right: 130px;
+                    
+
+                }
+
+                button{
+                    width: 224px;
+                    height: 53px;
+                    border: 3px solid blue;
+                    border-radius: 5px;
+                  
+
+                  a{
+                     text-decoration: none;
+
+                      font-size: 18px;
+                  }
+
+                  transition: all 0.5s ease-in-out;
+                  &:hover{
+
+                   background-color: silver;
+                  }
+              }
+
+             
+            }
+            img{
+                z-index: 9.99;
+                position: relative;
+                bottom:270px;
+                right: 50px;
+                width:800px;
+               }
+
+        }
+    }
+}
+
+// end of the feature section
+ 
+// start of sign up section
+.sign_section{
+    height: 1037px;
+    background-image: url(../img/Section\ last.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .row .con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 300px;
+
+        .topic_holder{
+            width: 1705px;
+            height: 355px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            h1{
+                font-size: 74px;
+                font-weight: bolder;
+
+            }
+            p{
+                font-size: 26px;
+                text-align: center;
+                width: 1705px;
+                height: 103px;
+
+
+            }
+            button{
+             
+                width: 318px;
+                height: 85px;
+                background-color: #ea580c;
+                border-radius: 10px;
+                border: none;
+                transition: all 0.6s ease-in-out;
+                &:hover{
+
+                    transform: scale(1.1);
+                    background-color: silver;
+                }
+                a{
+                   text-decoration: none;
+                   color: white;
+                   font-size: 31px;
+                   font-weight: bold;
+                  
+                   
+                }
+
+                
+            }
+        }
+    }
+}
+
+
+// end of  sign up section
+
+// start of footer section
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f172a;
+
+    .row .con{
+      
+
+    
+            .foot_holder{
+                display: flex;
+                width:1700px ;
+                height: 553px;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 1px solid white ;
+
+                .logo img{
+                    padding-bottom: 230px;
+                }
+
+                .menu{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    h4{
+                        font-size: 21px;
+                        font-weight: 600;
+                        color: white;
+
+                        a{
+                            text-decoration: none;
+                            color: white;
+
+                        }
+
+
+                    }
+                    h5{
+                        font-size: 21px;
+                        font-weight: 400;
+                        color: white;
+                        a{
+                            text-decoration: none;
+                            color: white;
+
+                        }
+                        .imgg1{
+                            object-fit: contain;
+                            width: 50px;
+                        }
+
+                        p{
+                            color: purple;
+                            background-color: white;
+
+                        }
+
+                    }
+                }
+
+                
+            }
+
+            .under_footer{
+
+              display: flex;  
+              justify-content: space-around;
+              width: 1700px;
+              gap: 890px;
+              height: 95px;
+
+              .holder-footercon{
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                p{
+                    color: white;
+                    padding-top: 40px;
+                }
+                img{
+                    object-fit: contain;
+                    width: 100px;
+                    padding-bottom: 23px;
+                }
+              }
+
+              .socail{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                color: white;
+              }
+            }
+        }
+    }
+
+
+// end of footer section
